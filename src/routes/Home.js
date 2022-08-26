@@ -5,10 +5,10 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return <div>
-        <Navbar />
-        <HeroImg />
-        <Footer />
-    </div>;
+      <Navbar />
+      <HeroImg />
+      <Footer />
+  </div>;
 };  
 
 export default Home

@@ -10,6 +10,7 @@ import {
     FaLinkedin, 
     FaGithub 
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -51,18 +52,26 @@ const Footer = () => {
                 <h4>About Me</h4>
                 <p>Saya Ghozi, Seorang mahasiswa Teknologi Informasi di Universitas Muhammadiyah Yogyakarta. Terimakasih sudah berkunjung ke website portfolio saya. Semoga anda menikmati.</p>
                 <div className="social">
-                    <FaInstagram 
-                        size={30} 
-                        style={{ color:"#fff", marginRight: "1rem" }} 
-                    />
-                    <FaLinkedin 
-                        size={30} 
-                        style={{ color:"#fff", marginRight: "1rem" }} 
-                    />
-                    <FaGithub 
-                        size={30} 
-                        style={{ color:"#fff", marginRight: "1rem" }} 
-                    />
+                    <a href="https://instagram.com/ghozi_a">
+                        <FaInstagram 
+                            size={30} 
+                            style={{ color:"#fff", marginRight: "1rem" }} 
+                        />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ghosi-adam-73b6791a0/">
+                        <FaLinkedin 
+                            size={30} 
+                            style={{ color:"#fff", marginRight: "1rem" }} 
+                        />
+                    </a>
+
+                    <a href="https://github.com/enjoyghozi">
+                        <FaGithub 
+                            size={30} 
+                            style={{ color:"#fff", marginRight: "1rem" }} 
+                        />
+                    </a>
                 </div>
             </div>
         </div>
