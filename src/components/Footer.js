@@ -49,8 +49,8 @@ const Footer = () => {
             </div>
 
             <div className="right">
-                <h4>About Me</h4>
-                <p>Saya Ghozi, Seorang mahasiswa Teknologi Informasi di Universitas Muhammadiyah Yogyakarta. Terimakasih sudah berkunjung ke website portfolio saya. Semoga anda menikmati.</p>
+                <h4>Inspirasi</h4>
+                <p>Kalau semua rencana terwujud nanti kamu lupa caranya berdo'a.</p>
                 <div className="social">
                     <a href="https://instagram.com/ghozi_a">
                         <FaInstagram 
