@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <Link to="/enjoyghz">
+        <Link to="/">
             <h1>enjoyghz.</h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/enjoyghz">Home</Link>
+                <Link to="/">Home</Link>
             </li>
             <li>
                 <Link to="/project">Project</Link>
