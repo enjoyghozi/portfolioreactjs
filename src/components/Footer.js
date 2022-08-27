@@ -10,7 +10,6 @@ import {
     FaLinkedin, 
     FaGithub 
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -24,8 +23,8 @@ const Footer = () => {
                         style={{ color:"#fff", marginRight: "2rem" }} 
                     />
                     <div>
-                        <p>Gg. Gayamsari II KarangWuni, Caturtunggal, Depok, Sleman</p>
-                        <p>Yogyakarta</p>
+                        <h4>Gg. Gayamsari II KarangWuni, Caturtunggal, Depok, Sleman</h4>
+                        <h4>Yogyakarta</h4>
                     </div>
                 </div>
                 <div className="phone">
@@ -50,7 +49,7 @@ const Footer = () => {
 
             <div className="right">
                 <h4>Inspirasi</h4>
-                <p>Kalau semua rencana terwujud nanti kamu lupa caranya berdo'a.</p>
+                <p1>Kalau semua rencana terwujud nanti kamu lupa caranya berdo'a.</p1>
                 <div className="social">
                     <a href="https://instagram.com/ghozi_a">
                         <FaInstagram 
