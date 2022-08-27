@@ -49,7 +49,7 @@ const Footer = () => {
 
             <div className="right">
                 <h4>Inspirasi</h4>
-                <p1>Kalau semua rencana terwujud nanti kamu lupa caranya berdo'a.</p1>
+                <p1>Kalau semua rencanamu terwujud nanti kamu lupa caranya berdo'a.</p1>
                 <div className="social">
                     <a href="https://instagram.com/ghozi_a">
                         <FaInstagram 
