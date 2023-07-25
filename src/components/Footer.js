@@ -36,7 +36,7 @@ const Footer = () => {
                         +62-8232-5833-358
                     </h4>
                 </div>
-                <div className="email">
+                <div className="email"> 
                     <h4>
                         <FaMailBulk 
                             size={20} 
